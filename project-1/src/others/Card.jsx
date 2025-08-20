@@ -18,28 +18,18 @@ const Card = ({ bgCol, detail }) => {
 
       <h2
         className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 text-gray-900 text-pretty"
-        style={{
-          display: "-webkit-box",
-          WebkitLineClamp: 2,
-          WebkitBoxOrient: "vertical",
-          overflow: "hidden",
-
-        }}
       >
         {detail.title}
       </h2>
 
       <p
-        className="text-sm sm:text-base text-gray-700 flex-grow mb-4"
-        style={{
-          display: "-webkit-box",
-          WebkitLineClamp: 4,
-          WebkitBoxOrient: "vertical",
-          overflow: "hidden",
-        }}
-      >
+        className="text-sm sm:text-base text-gray-700 flex-grow mb-4 text-wrap">
         {detail.description}
       </p>
+
+
+
+      
 
       <h1
         className={`text-lg sm:text-xl md:text-2xl font-semibold mb-0 flex-shrink-0

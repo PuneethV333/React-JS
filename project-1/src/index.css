@@ -21,7 +21,3 @@ body{
 body::-webkit-scrollbar {
   display: none;                   /* Chrome, Safari, Opera */
 }
-
-#tasklist:last-child{
-    margin-left: 20px;
-}

@@ -5,12 +5,10 @@ import { getLocalStorage } from "../Utils/localstoreage";
 export const AutherContext = createContext();
 
 const AutherProvider = ({ children }) => {
-  // Initial state with employees array to prevent "undefined"
   const [authData, setauthData] = useState({
     employees: [],
   });
 
-  // Load from local storage on mount
   useEffect(() => {
     const storedData = getLocalStorage();
 
