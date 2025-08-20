@@ -1,0 +1,12 @@
+@import "tailwindcss";
+body {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  background-image: url(./assets/93502.jpg);
+  height: 100%;
+  width: 100%;
+  user-select: none; /* Prevent text selection */
+  -webkit-user-select: none; /* For Safari/Chrome */
+  -ms-user-select: none;
+}
