@@ -177,6 +177,7 @@ const CreateTask = () => {
         gap-2 rounded-lg shadow-md text-sm sm:text-base mx-auto max-w-3xl font-semibold text-white"
       >
         <h2>Name</h2>
+        
         <h2 className="text-emerald-300">Completed</h2>
         <h2 className="text-emerald-300">Accepted</h2>
         <h2 className="text-emerald-300">New Task</h2>
